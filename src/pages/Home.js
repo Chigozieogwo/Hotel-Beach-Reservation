@@ -3,7 +3,7 @@ import Hero from '../component/Hero'
 import Banner from '../component/Banner'
 import Services from '../component/Services'
 import { Link } from 'react-router-dom';
-
+import FeaturedRooms from '../component/FeaturedRooms' 
 
 export default function Home() {
 
@@ -17,9 +17,9 @@ export default function Home() {
             </Banner>
             
          </Hero>
-            <Services>
-                
-            </Services>
+            <Services/>
+            
+            <FeaturedRooms/>
           </>  
         
     )
